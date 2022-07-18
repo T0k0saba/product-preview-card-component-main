@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a Frontend Mentor practice site">
+    <meta name="author" content="T0k0saba">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body class="bg-Cream">
+    <main class="grid h-screen place-items-center">
+        <div class="bg-white my-7 mx-5 max-w-sm rounded-lg overflow-hidden sm:flex sm:flex-row sm:flex-nowrap sm:justify-center sm:max-w-xl">
+            <img src="./images/image-product-mobile.jpg" alt="Gabrielle CHANEL Parfum" class="w-full sm:hidden">
+            <img src="./images/image-product-desktop.jpg" alt="Gabrielle CHANEL Parfum" class="h-auto w-1/2 hidden sm:flex">
+            <div class="p-7">
+                <div class="pb-4">
+                    <p class="text-darkGrayishBlue uppercase tracking-[0.3em] font-montserratMedium text-xs">Perfume</p>
+                </div>
+                <div class="pb-4">
+                    <h1 class="text-veryDarkBlue text-3xl font-fraunces">Gabrielle Essence Eau De Parfum</h1>
+                </div>
+                <p class="leading-loose text-[0.760rem] text-darkGrayishBlue font-montserratMedium pb-4">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                <div class="mt-6">
+                    <span class="font-fraunces text-darkCyan text-3xl mr-4">$149.99</span>
+                    <span class="font-montserratMedium text-darkGrayishBlue line-through text-sm inline-block align-super">$169.99</span>
+                    <button class="mt-4 w-full bg-darkCyan hover:bg-darkCyanActive text-white font-montserratBold text-sm py-2 px-4 rounded inline-flex items-center justify-center"><img class="inline-block m-2" src="./images/icon-cart.svg" alt="cart icon">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="attribution mb-7">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://www.frontendmentor.io/profile/T0k0saba">Aba Toókos</a>.
+        </div>
+    </footer>
+</body>
+
+</html>
